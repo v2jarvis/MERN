@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>This is my first html code</h1>
+    <h2>This is my second html line</h2>
+    <h6>this is my six html line</h6>
+    <h7>This is my second html line</h7>
+    <p>This is my first para</p>
+    <a href="https://www.google.com">Click Me</a>
+
+    <ul>
+        <li>Test1</li>
+        <li>Test2</li>
+        <li>Test3</li>
+    </ul>
+
+    <ol>
+        <li>Test4</li>
+        <li>Test5</li>
+        <li>Tst1</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    <table border="1" height="100" width="300">
+        <thead>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Adrs</th>
+            <th>Phn</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Niteesh</td>
+                <td>Noida</td>
+                <td>8756675666</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Uday</td>
+                <td>Noida</td>
+                <td>8756675666</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Sachin</td>
+                <td>Noida</td>
+                <td>8756675666</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>Abhisek</td>
+                <td>Noida</td>
+                <td>8756675666</td>
+            </tr>
+
+        </tbody>
+
+
+    </table> -->
+
+
+    <!-- Html table - Complex layout - specificel -->
+
+    <!-- <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 AM</td>
+                <td rowspan="2">5:00 PM</td>
+                <td>Introduction To XML</td>
+            </tr>
+
+            <tr>
+                <td>Validity: DTD and Relax NG</td>
+            </tr>
+
+            
+            <tr>
+                <td rowspan="4">Tuesday</td>
+                <td>8:00 AM</td>
+                <td>11:00 AM</td>
+                <td rowspan="2" style="padding: 7px"> Xpath</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">11:00 AM</td>
+                <td rowspan="2">2:00 PM</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">XSL Transformations</td>
+            </tr>
+
+           
+            <tr>
+                <td>2:00 PM</td>
+                <td>5:00 PM</td>
+            </tr>
+
+ 
+
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 AM</td>
+                <td>12: PM</td>
+                <td>XSL Formattong Objects</td>
+            </tr>
+        </tbody>
+
+    </table> -->
+
+    <!-- Examples of forms -->
+
+    <fieldset>
+        <legend>HTML</legend>
+        <form>
+            <label for="mail">Enter Mail ID:</label>
+            <input type="text" id="mail" placeholder="Email">
+        
+            </br>
+            </br>
+        
+            <label for="pswd">Enter Password:</label>
+            <input type="password" id="pswd" placeholder="Password">
+        
+            </br>
+            </br>
+        
+            <!-- for buttons -->
+            <input type="submit" value="Click">
+            <button>Click</button>
+            
+            </br>
+            </br>
+            
+            <!-- for radio button -->
+            <input type="radio" value="Click">
+            
+            </br>
+            </br>
+    
+            <!-- for check boxes -->
+            <input type="checkbox" value="Click">
+        
+            </br>
+            </br>
+            
+            <!-- for calander -->
+            <label for="cl">Choose Date:</label>
+            <input type="date" id="cl" value="Calander">
+        
+            </br>
+            </br>
+            
+            <!-- select tag and option tag use -->
+            <label for="sel">DropDown List:</label>
+            <select id="sel">
+                <option>--Select--</option>
+                <option value="maggei">Maggei</option>
+                <option value="chips">Chips</option>
+                <option value="kurkure">Kurkure</option>
+                <option value="snaks">Snaks</option>
+            </select>
+    
+            </br>
+            </br>
+    
+            <!-- for text area -->
+            <label for="txt">Enter Your Text:</label>
+            <textarea name="v2jarvis" id="txt" cols="50" rows="20" placeholder="Input Text"></textarea>
+            
+            </br>
+            </br>
+
+            <!-- for file select  -->
+            <label for="fl1">Select Your File:</label>
+            <input type="file" id="fl1"> <button>Upload</button>
+            
+            </br>
+            </br>
+            
+            <!-- for url use -->
+            <label for="u">Enter your Url:</label>
+            <input type="url" id="u">
+
+            </br>
+            </br>
+
+            <!-- for range select  -->
+            <label for="rng">Select Range:</label>
+            <input type="range" id="rng">
+
+            </br>
+            </br>
+
+            <!-- for search -->
+            <label for="sr">Enter Search:</label>
+            <input type="search" id="sr">
+
+            </br>
+            </br>
+            
+            <!-- for color select -->
+            <label for="col">Select Color:</label>
+            <input type="color" id="col">
+            
+            </br>
+            </br>
+
+            <!-- for image button -->
+            <label for="img">Click</label>
+            <input type="image" id="img" alt="Click" src="click.jpg" height="15px" width="15px">
+
+        </form>
+    
+    </fieldset>
+    
+
+
+
+
+</body>
+</html>

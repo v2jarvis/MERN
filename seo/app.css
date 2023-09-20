@@ -1,0 +1,22 @@
+/* element selector */
+h1{
+    color: rgb(11, 65, 65);
+    font-style: italic;
+}
+
+/* id selector */
+#para{
+    color: blue;
+    font-family: sans-serif;
+}
+
+/* class selector */
+.par{
+    color: red;
+}
+
+/* group selector */
+h1,p{
+    width: 500px;
+
+}

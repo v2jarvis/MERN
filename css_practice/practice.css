@@ -1,0 +1,9 @@
+#heading1{
+    color: steelblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style:groove;
+    border: 5cap;
+    border-color: rgb(0, 0, 0);
+    width: 480px;
+    border-radius: 5%;
+}
